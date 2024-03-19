@@ -1,0 +1,41 @@
+/* header.css */
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Ajustez la taille du logo selon vos besoins */
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0; /* Réduit la marge à zéro */
+  padding: 0; /* Réduit le padding à zéro */
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+/* Rapproche les éléments de la barre de navigation de l'image du logo */
+.logo {
+  flex-grow: 1;
+}
+
