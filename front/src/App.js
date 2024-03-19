@@ -1,9 +1,11 @@
 import './App.css';
+import Header from './components/Header.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+	  <Header />
+      <footer className="App-header">
         <p>
           Adventure Assemble
         </p>
@@ -24,7 +26,7 @@ function App() {
             <input type="submit" value="→"/>
           </form>
         </div>
-      </header>
+      </footer>
     </div>
   );
 }
