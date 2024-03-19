@@ -6,9 +6,6 @@ function App() {
     <div className="App">
 	  <Header />
       <footer className="App-header">
-        <p>
-          Adventure Assemble
-        </p>
         <div className="main">
           <div class="coteacote">
           <form>
