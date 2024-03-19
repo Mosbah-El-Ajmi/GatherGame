@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header.js';
 import './App.css'; 
 
-function NewMissionForm() {
+function CreerMissionPage() {
   const [missionData, setMissionData] = useState({
     name: '',
     instructions: '',
@@ -86,4 +86,4 @@ function NewMissionForm() {
   );
 }
 
-export default NewMissionForm;
+export default CreerMissionPage;
